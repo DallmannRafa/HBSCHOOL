@@ -1,0 +1,11 @@
+CREATE TABLE model
+(
+    aluno VARCHAR(100) NOT NULL,
+    periodo VARCHAR(100) NOT NULL,
+    materia VARCHAR(100) NOT NULL,
+    nota1 DECIMAL(3,2) NOT NULL,
+    nota2 DECIMAL(3,2) NOT NULL,
+    nota3 DECIMAL(3,2) NOT NULL,
+    nota4 DECIMAL(3,2) NOT NULL,
+    media DECIMAL(3,2) NOT NULL,
+);

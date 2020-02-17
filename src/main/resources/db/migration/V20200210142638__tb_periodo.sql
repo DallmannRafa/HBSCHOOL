@@ -1,0 +1,7 @@
+CREATE TABLE periodo
+(
+    id BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    data_inicio DATE NOT NULL,
+    data_fim DATE NOT NULL
+);

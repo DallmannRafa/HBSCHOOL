@@ -1,0 +1,1 @@
+ALTER TABLE boletim DROP COLUMN media;
